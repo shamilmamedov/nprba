@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data folder
+training/eval_results/
+mujoco_eval_results/
+
+# Weights and biases
+wandb
+wandb-debug.log
+
+# Distribution / packaging
+*.egg-info/
+
+# Unit test / coverage reports
+.pytest_cache/
+
+# Sphinx documentation
+docs/_build/
+
+# .vscode
+.vscode/
